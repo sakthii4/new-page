@@ -1,0 +1,19 @@
+[33mcommit 054ef5f773c48d31cf84c1a0e9ffe1bcf6d4700e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: sakthii4 <siva948619@gmail.com>
+Date:   Thu Jul 2 17:48:49 2026 +0530
+
+    Add GitHub Actions workflow for GitHub Pages deployment
+    
+    This workflow automates the deployment of static content to GitHub Pages on pushes to the main branch or manually via the Actions tab.
+
+[33mcommit 17ff12df8c722a9c89e4d010bb9f7e7341f8df93[m
+Author: sakthivel <sakthiveldev1311@gmail.com>
+Date:   Thu Jul 2 08:19:01 2026 +0530
+
+    fifa site added
+
+[33mcommit 6bffd369f191bec568e63fe7af3b20564ddb68ab[m
+Author: sakthivel <sakthiveldev1311@gmail.com>
+Date:   Thu Jul 2 08:09:37 2026 +0530
+
+    new file added
