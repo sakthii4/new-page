@@ -1,81 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Simple Web Page</title>
+    <title>FIFA World Cup</title>
 
     <style>
         body{
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            margin: 0;
+            margin:0;
+            font-family:Arial,sans-serif;
+            background:#f4f4f4;
         }
 
         header{
-            background-color: #0b5ed7;
-            color: white;
-            text-align: center;
-            padding: 20px;
+            background:#0066cc;
+            color:white;
+            text-align:center;
+            padding:20px;
         }
 
         nav{
-            background-color: #333;
-            text-align: center;
-            padding: 10px;
+            background:#003366;
+            padding:10px;
+            text-align:center;
         }
 
         nav a{
-            color: white;
-            text-decoration: none;
-            margin: 15px;
+            color:white;
+            text-decoration:none;
+            margin:15px;
+            font-weight:bold;
         }
 
-        .content{
-            width: 80%;
-            margin: 30px auto;
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            text-align: center;
+        section{
+            width:80%;
+            margin:20px auto;
+            background:white;
+            padding:20px;
+            border-radius:8px;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+        }
+
+        table, th, td{
+            border:1px solid gray;
+        }
+
+        th{
+            background:#0066cc;
+            color:white;
+        }
+
+        th, td{
+            padding:10px;
+            text-align:center;
         }
 
         footer{
-            background-color: #0b5ed7;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            margin-top: 30px;
+            background:#003366;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:20px;
         }
     </style>
-</head>
 
+</head>
 <body>
 
 <header>
-    <h1>My Simple Website</h1>
+    <h1>⚽ FIFA World Cup</h1>
+    <p>Welcome to the World of Football</p>
 </header>
 
 <nav>
     <a href="#">Home</a>
-    <a href="#">About</a>
+    <a href="#">Teams</a>
+    <a href="#">Matches</a>
     <a href="#">Contact</a>
 </nav>
 
-<div class="content">
-    <h2>Welcome</h2>
-    <p>This is a simple webpage created using HTML and internal CSS.</p>
+<section>
+    <h2>About FIFA</h2>
+    <p>
+        The FIFA World Cup is the biggest international football tournament.
+        It is played every four years and features the best national teams
+        from around the world.
+    </p>
+</section>
 
-    <h3>Features</h3>
-    <ul style="display:inline-block; text-align:left;">
-        <li>Single HTML file</li>
-        <li>Internal CSS</li>
-        <li>Simple layout</li>
-        <li>Easy to understand</li>
+<section>
+    <h2>Top Teams</h2>
+    <ul>
+        <li>Argentina</li>
+        <li>Brazil</li>
+        <li>France</li>
+        <li>Germany</li>
+        <li>Spain</li>
     </ul>
-</div>
+</section>
+
+<section>
+    <h2>Sample Match Schedule</h2>
+
+    <table>
+        <tr>
+            <th>Match</th>
+            <th>Date</th>
+        </tr>
+
+        <tr>
+            <td>Argentina vs Brazil</td>
+            <td>10 July</td>
+        </tr>
+
+        <tr>
+            <td>France vs Germany</td>
+            <td>12 July</td>
+        </tr>
+
+        <tr>
+            <td>Spain vs England</td>
+            <td>14 July</td>
+        </tr>
+    </table>
+</section>
 
 <footer>
-    <p>&copy; 2026 My Website</p>
+    <p>&copy; 2026 FIFA World Cup Fan Page</p>
 </footer>
 
 </body>
